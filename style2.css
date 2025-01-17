@@ -1,0 +1,181 @@
+
+
+/* mystyle */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    background-image: url(img/movie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-login{
+        width: 529px;
+        /* height: 550px; */
+        margin: auto;
+        margin-top: 100px;
+        padding: 20px;
+        /* gap: 37px; */
+        border-radius: 16px;
+        background-color: #181a1cd6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .logo{
+        width: 163px;
+        height: 44px;
+        gap: 4px;
+        background-image: url(img/logo.png);
+        background-size: cover;
+      }
+    
+      .masuk{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        /* margin-top: 10px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 8px; */
+      }
+      h2 {
+        font-size: 30px;
+      }
+      .container-username{
+        margin-top: 20px;
+      }
+      .container-password{
+        margin-top: 20px;
+      }
+      .l-username {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        /* gap: 6px; */
+      }
+
+      .i-username {
+        width: 100%;
+        height: 35px;
+        border-radius: 16px;
+        background-color: #181a1cd6;
+        margin: auto;
+        margin-top: 10px;
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      .l-password {
+        font-family: Arial, Helvetica, sans-serif;  
+        color: white;
+        display: flex;
+        gap: 12px;
+      }
+      .i-password{
+        width: 100%;
+        height: 35px;
+        border-radius: 16px;
+        background-color: #181a1cd6;
+        margin: auto;
+        margin-top: 10px;
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+      }
+      .belum-punya-akun{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        float: left;
+      }
+      .p-akun{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+      }
+      .lupa-sandi{
+         display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+        float: right;
+      }
+      
+
+
+  .button-masuk {
+    padding: 10px;
+    background-color: #3d4142;
+    width: 450px;
+    border-radius: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  .center {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+  }
+  span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+
+.css-rce0rb-unf-btn::before {
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/50524134.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 110px;
+  }
+  
+  .css-rce0rb-unf-btn {
+    /* background-color: var(--NN0, #ffffff); */
+    background-color: #181a1cd6;
+    border: 1px solid var(--NN300, #bfc9d9);
+    border-radius: 8px;
+    /* color: var(--NN700, #525867); */
+    color: white;
+    cursor: pointer;
+    /* font-family: inherit;
+    font-weight: 800;
+    font-size: 1rem; */
+    height: 40px;
+    line-height: 20px;
+    outline: none;
+    position: relative;
+    padding: 0px 16px;
+    text-indent: initial;
+    transition: background-color 300ms;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 16px;
+    /* margin-bottom: 50px; */
+  }
+  
+
+      
