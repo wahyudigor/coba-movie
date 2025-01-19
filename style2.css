@@ -10,9 +10,15 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
 }
 *{
   font-family: lato,sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  
+
 }
 
 .container-login{
@@ -40,9 +46,7 @@ body{
       }
     
       .masuk{
-        color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
         /* margin-top: 10px; */
         display: flex;
         flex-direction: column;
@@ -52,14 +56,16 @@ body{
       h3 {
         font-size: 25px;  
       }
+      .p-selamat{
+        margin-top: -10px;
+      }
       .container-username{
-        margin-top: 20px;
+        margin-top: 15px;
       }
       .container-password{
-        margin-top: 20px;
+        margin-top: 15px;
       }
       .l-username {
-        color: white;
         display: flex;
         /* gap: 6px; */
       }
@@ -71,12 +77,11 @@ body{
         background-color: #181a1cd6;
         margin: auto;
         margin-top: 10px;
-        color: white;
         display: flex;
         flex-wrap: nowrap;
       }
+      
       .l-password {
-        color: white;
         display: flex;
         gap: 12px;
       }
@@ -87,54 +92,67 @@ body{
         background-color: #181a1cd6;
         margin: auto;
         margin-top: 10px;
-        color: white;
         display: flex;
         flex-wrap: nowrap;
       }
+      .mata{
+        float: right;
+        margin-right: 10px;
+        margin-top: -28px;
+      }
 
       a {
-        color: white;
         text-decoration: none;
-        font-size: 13px;
         font-weight: bolder;
       }
       .belum-punya-akun{
         display: flex;
         gap: 10px;
         margin-top: 10px;
-        font-size: 13px;
-        font-weight: bolder;
+      
+        /* font-weight: bolder; */
         float: left;
       }
-      .p-akun{
-        font-size: 13px;
-      }
+      
       .lupa-sandi{
-         display: flex;
+        display: flex;
         gap: 10px;
         margin-top: 10px;
-        font-size: 13px;
+      
         font-weight: bolder;
         float: right;
       }
       
-
+/* daftar */
+.container-konfirmasi{
+  margin-top: 15px;
+}
+.l-konfirmasi {
+  display: flex;
+  gap: 12px;
+}
+.i-konfirmasi{
+  width: 100%;
+  height: 35px;
+  border-radius: 16px;
+  background-color: #181a1cd6;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
 
   .button-masuk {
     padding: 10px;
-    background-color: #3d4142;
+    background-color: #181a1cd6;
     width: 450px;
     border-radius: 16px;
-    color: white;
-    font-size: 13px;
+    /* font-size: 13px; */
   }
   .center {
 
-    font-size: 13px;
+    /* font-size: 13px; */
     text-align: center;
-  }
-  span{
-    font-size: 13px;
   }
 
 
@@ -153,14 +171,10 @@ body{
   .css-rce0rb-unf-btn {
     /* background-color: var(--NN0, #ffffff); */
     background-color: #181a1cd6;
-    border: 1px solid var(--NN300, #bfc9d9);
-    border-radius: 8px;
+    border-radius: 16px;
     /* color: var(--NN700, #525867); */
-    color: white;
     cursor: pointer;
-    /* font-family: inherit;
-    font-weight: 800;
-    font-size: 1rem; */
+  
     height: 40px;
     line-height: 20px;
     outline: none;
