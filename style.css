@@ -1,168 +1,189 @@
-
-
-/* my style */
-body {
+body{
   margin: 0;
   padding: 0;
-  background-image: url(img/movie.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  box-sizing: border-box;
+    background-image: url(img/movie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
 }
-.container-login {
-  width: 500px;
-  height: 480px;
-  margin: auto;
-  margin-top: 50px;
-  padding: 20px;
-  gap: 37px;
-  border-radius: 16px;
-  background-color: #181a1cd6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 20px;
+*{
+  font-family: lato,sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  
+
 }
 
-.logo {
-  width: 163px;
-  height: 44px;
-  gap: 4px;
-  background-image: url(img/logo.png);
-  background-size: cover;
-  /* margin: auto; */
-  margin-top: 20px;
-  /* margin-bottom: 20px; */
-}
-.masuk {
-  /* width: 150px;
-  height: 60px;
-  gap: 8px;
-  background-image: url(img/Frame63.png);
-  background-size: cover;
-  margin: auto; */
-  /* margin-top: 20px; */
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  /* margin-top: 5px; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-h2 {
-  font-size: 30px;
-}
-.l-username {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  display: flex;
-}
-.i-username {
-  width: 350px;
-  height: 30px;
-  border-radius: 16px;
-  background-color: #181a1cd6;
-  margin: auto;
-  margin-top: 10px;
-  color: white;
-}
-.l-password {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  display: flex;
-  margin-top: 10px;
-}
-.i-password {
-  width: 350px;
-  height: 30px;
-  border-radius: 16px;
-  background-color: #181a1cd6;
-  margin: auto;
-  margin-top: 10px;
-  color: white;
-}
-/* .daftar-lupa {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  color: white;
-  margin: 20px, 20px, 20px, 20px;
-} */
+.container-login{
+        max-width: 529px;
+        /* height: 550px; */
+        gap: 10px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 20px;
+        border-radius: 16px;
+        background-color: #181a1cd6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      .logo{
+    
+        width: 163px;
+        height: 44px;
+        gap: 4px;
+        background-image: url(img/logo.png);
+        background-size: cover;
+        margin-top: 10;
+      }
+    
+      .masuk{
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin-top: 10px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 8px; */
+      }
+      h3 {
+        font-size: 25px;  
+      }
+      .p-selamat{
+        margin-top: -10px;
+      }
+      .container-username{
+        margin-top: 15px;
+      }
+      .container-password{
+        margin-top: 15px;
+      }
+      .l-username {
+        display: flex;
+        /* gap: 6px; */
+      }
 
-.pull-right {
-  float: right;
-}
-.pull-left {
-  float: left;
-}
-.text-white,
-a {
-  color: white;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-}
+      .i-username {
+        width: 100%;
+        height: 35px;
+        border-radius: 16px;
+        background-color: #181a1cd6;
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      
+      .l-password {
+        display: flex;
+        gap: 12px;
+      }
+      .i-password{
+        width: 100%;
+        height: 35px;
+        border-radius: 16px;
+        background-color: #181a1cd6;
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      .mata{
+        float: right;
+        margin-right: 10px;
+        margin-top: -28px;
+      }
 
-.font-weight-bolder {
-  font-weight: bolder;
-  margin-top: 10px;
+      a {
+        text-decoration: none;
+        font-weight: bolder;
+      }
+      .belum-punya-akun{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      
+        /* font-weight: bolder; */
+        float: left;
+      }
+      
+      .lupa-sandi{
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      
+        font-weight: bolder;
+        float: right;
+      }
+      
+/* daftar */
+.container-konfirmasi{
+  margin-top: 15px;
 }
-
-.font-weight-not-bolder {
-  font-weight: 100;
+.l-konfirmasi {
+  display: flex;
+  gap: 12px;
 }
-.button-masuk {
-  padding: 10px;
-  background-color: #3d4142;
+.i-konfirmasi{
   width: 100%;
+  height: 35px;
   border-radius: 16px;
-  color: white;
-}
-.center {
-  text-align: center;
+  background-color: #181a1cd6;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.clear-both {
-  clear: both;
-}
+  .button-masuk {
+    padding: 10px;
+    background-color: #181a1cd6;
+    width: 450px;
+    border-radius: 16px;
+    /* font-size: 13px; */
+  }
+  .center {
+
+    /* font-size: 13px; */
+    text-align: center;
+  }
+
 
 .css-rce0rb-unf-btn::before {
-  background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/50524134.svg);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  content: "";
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 64px;
-}
-
-.css-rce0rb-unf-btn {
-  /* background-color: var(--NN0, #ffffff); */
-  background-color: #181a1cd6;
-  border: 1px solid var(--NN300, #bfc9d9);
-  border-radius: 8px;
-  /* color: var(--NN700, #525867); */
-  color: white;
-  cursor: pointer;
-  /* font-family: inherit;
-  font-weight: 800;
-  font-size: 1rem; */
-  height: 40px;
-  line-height: 20px;
-  outline: none;
-  position: relative;
-  padding: 0px 16px;
-  text-indent: initial;
-  transition: background-color 300ms;
-  width: 100%;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  border-radius: 16px;
-  /* margin-bottom: 50px; */
-}
+    background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/50524134.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 110px;
+  }
+  
+  .css-rce0rb-unf-btn {
+    /* background-color: var(--NN0, #ffffff); */
+    background-color: #181a1cd6;
+    border-radius: 16px;
+    /* color: var(--NN700, #525867); */
+    cursor: pointer;
+  
+    height: 40px;
+    line-height: 20px;
+    outline: none;
+    position: relative;
+    padding: 0px 16px;
+    text-indent: initial;
+    transition: background-color 300ms;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 16px;
+    /* margin-bottom: 50px; */
+  }
