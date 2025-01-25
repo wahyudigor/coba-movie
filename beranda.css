@@ -114,15 +114,14 @@ body{
 
   }
   .button-mulai{
-    display: flex;
-    /* justify-content: space-between; */
-     margin-top: 10px;
-    margin-left: 20px; 
-    /* height: 30px; */
-    font: size 20px;
-    line-height: 25px;
+    
+    line-height: 20px;
+    font-size: 15px;
+    padding: 10px;
     background-color: #0F1E93;
-    border-radius: 10px;
+    border-radius: 16px;
+    margin-top: auto;
+    
   }
 
   .img-selengkapnya{
