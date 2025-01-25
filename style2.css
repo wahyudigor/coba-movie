@@ -22,7 +22,7 @@ body{
 }
 
 .container-login{
-        width: 529px;
+        max-width: 529px;
         /* height: 550px; */
         gap: 10px;
         margin: auto;
@@ -191,6 +191,8 @@ body{
     border-radius: 16px;
     /* margin-bottom: 50px; */
   }
+
+  
   
 
       
