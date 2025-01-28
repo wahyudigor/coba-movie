@@ -1,254 +1,426 @@
 body{
-    background-color: #202026;
+  background-color: #202026;
 }
 *{
-    margin: 0;
-    padding: 0;
-    font-family: lato, sans-serif;
-    color: #FFFFFF;
-    /* font-size: 18px; */
+  margin: 0;
+  padding: 0;
+  font-family: lato,sans-serif;
+  color: #FFFFFF;
+  /* font-size: 18px; */
 }
 .container-beranda{
-    width: 1440px;
-    /* height: auto; */
-    margin: auto; 
-    /* border: solid 1px green; */
-    background-color: #181A1C
+  width: 1440px;
+  /* height: auto; */
+  margin: auto; 
+  border: solid 1px green;
+  background-color: #181A1C
 }
 .container-header{
-    display: flex;
-    margin: auto;
-    /* margin-top: 25px; */
-    /* background-color: #181A1C; */
-    height: 94px;
-    width: 1440px;
-      }
- .logo{
-    display: flex;
-    width: 163px;
-    height: 44px;
-    gap: 8px;
-    background-image: url(img/logo.png);
-    background-size: cover;
-    margin: 20px;
-  }
- .navbar{
-    display: flex;
-    margin-left: auto;
-    margin: 30px;
-  }
-  .navbar ul{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-  }
-  .navbar ul li a{
-    text-decoration: none;
-    font-size: 20px;
-  }
+  display: flex;
+  margin: auto;
+  /* margin-top: 25px; */
+  /* background-color: #181A1C; */
+  height: 94px;
+  width: 1440px;
+    }
+.logo{
+  display: flex;
+  width: 163px;
+  height: 44px;
+  gap: 8px;
+  background-image: url(img/logo.png);
+  background-size: cover;
+  margin: 20px;
+}
+.navbar{
+  display: flex;
+  margin-left: auto;
+  margin: 30px;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
 
-  .container-avatar{
-    display: flex;
-    margin-left: auto;
-    /* border: solid 1px green; */
-    width: 76px;
-    height: 40px;
-    /* untuk menggerakkan posisi logo */
-    margin-right: 30px;
-  }
-  .logo-avatar{
-    margin-top: 27px ;
-    width: 40px;
-    height: 40px;
-    background-image: url(img/avatar.png);
-    background-size: cover;
-    display: flex;
-    /* margin-left: auto; */
-  }
-  .logo-down{
-    margin-top: 27px;
-    width: 28px;
-    height: 28px;
-    background-image: url(img/down.png);
-    background-size: cover;
-    display: flex;
-    /* margin-left: auto; */
-  }
-  .container-hero{
-    width: 1440px;
-    height: 587px;
-    border: solid 1px #181A1C;
-    margin: auto;
-    background-image: url(img/duty.png);
-  }
-  .container-duty{
-    display: flex;
-    width: 1280px;
-    height: 233px;
-    /* border: solid 1px green; */
-    margin: auto;
-    margin-top: 300px;
-    
-  }
-  .paragrap{
-    width: 668px;
-    height: 148px;
-    /* border: solid green 1px; */
-    margin-top: 1rem;
-    margin-left: 1rem;
-  }
-  .container-ms{
-    display: flex;
-    margin: auto;
-    width: 1280px;
-    height: 45px;
-    /* border: solid 1px green; */
-    
-  }
-  .ms1{
-    width: 45px;
-    height: 45px;
-    background-image: url(img/ms.png);
-    background-size: cover;
-    display: flex;
+.container-avatar{
+  display: flex;
+  margin-left: auto;
+  /* border: solid 1px green; */
+  width: 76px;
+  height: 40px;
+  /* untuk menggerakkan posisi logo */
+  margin-right: 30px;
+}
+.logo-avatar{
+  margin-top: 27px ;
+  width: 40px;
+  height: 40px;
+  background-image: url(img/avatar.png);
+  background-size: cover;
+  display: flex;
+  /* margin-left: auto; */
+}
+.logo-down{
+  margin-top: 27px;
+  width: 28px;
+  height: 28px;
+  background-image: url(img/down.png);
+  background-size: cover;
+  display: flex;
+  /* margin-left: auto; */
+}
+.container-hero{
+  width: 1440px;
+  height: 587px;
+  border: solid 1px green;
+  margin: auto;
+  background-image: url(img/duty.png);
+}
+.container-duty{
+  display: flex;
+  width: 1280px;
+  height: 233px;
+  border: solid 1px green;
+  margin: auto;
+  margin-top: 300px;
+  
+}
+.paragrap{
+  width: 668px;
+  height: 148px;
+  /* border: solid green 1px; */
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.container-ms{
+  display: flex;
+  margin: auto;
+  width: 1280px;
+  height: 45px;
+  /* border: solid 1px green; */
+  
+}
+.ms1{
+  width: 45px;
+  height: 45px;
+  background-image: url(img/ms.png);
+  background-size: cover;
+  display: flex;
 
-  }
-  .button-mulai{
-    
-    line-height: 20px;
-    font-size: 15px;
-    padding: 10px;
-    background-color: #0F1E93;
-    /* width: 200px; */
-    border-radius: 16px;
-    margin-top: auto;
-    
-  }
+}
+.button-mulai{
+  display: flex;
+  /* justify-content: space-between; */
+   margin-top: 10px;
+  margin-left: 20px; 
+  /* height: 30px; */
+  font: size 20px;
+  line-height: 25px;
+  background-color: #0F1E93;
+  border-radius: 10px;
+}
 
-  .img-selengkapnya{
-    display: flex;
-    margin-left: 20px;  
-  }
-  .img-18{
-    display: flex;
-    margin-left: 20px;
-  }
-  /* .ms2{
-    width: 10px;
-    height: 45px;
-    background-size: cover;
-    display: flex;
-  } */
-   .on-of{
-    margin-top: 10px;
-    display: inline-block;
-    margin-left: 900px;
-   }
-   .container-melanjutkan-tonton{
-    width: 1440px;
-    height: 309px;
-    /* border: solid 1px green; */
-    margin: auto;
-   }
-   .h3-melanjutkan-tonton{
-    display: flex;
-    width: 354px;
-    height: 35px;
-    /* border: solid 1px green; */
-    /* margin: 50px; */
-    margin: 25px 90px;
-   }
-   .card1{
-    width: 1280px;
-    height: 162px;
-    /* border: solid 1px green; */
-    margin: auto;
-    /* margin-right: 20px; */
-    background-image: url(img/card.png);
-    
-   }
-   .container-top-rating{
-    width: 1440px;
-    height: 512px;
-    /* border: solid 1px green; */
-    margin: auto;
-   }
-   .h3-top-rating{
-    display: flex;
-    width: 354px;
-    height: 35px;
-    /* border: solid 1px green; */
-    /* margin: 50px; */
-    margin: 25px 90px;
-   }
-   .card2{
-    width: 1280px;
-    height: 365px;
-    /* border: solid 1px green; */
-    margin: auto;
-    /* margin-right: 20px; */
-    background-image: url(img/card2.png);
-   }
-   .container-film-trending{
-    width: 1440px;
-    height: 512px;
-    /* border: solid 1px green; */
-    margin: auto;
-   }
-   .h3-film-trending{
-    display: flex;
-    width: 354px;
-    height: 35px;
-    /* border: solid 1px green; */
-    /* margin: 50px; */
-    margin: 25px 90px;
-   }
-   .card3{
-    width: 1280px;
-    height: 365px;
-    /* border: solid 1px green; */
-    margin: auto;
-    /* margin-right: 20px; */
-    background-image: url(img/card3.png);
-   }
-   .container-rilis-baru{
-    width: 1440px;
-    height: 512px;
-    /* border: solid 1px green; */
-    margin: auto;
-   }
-   .h3-rilis-baru{
-    display: flex;
-    width: 354px;
-    height: 35px;
-    /* border: solid 1px green; */
-    /* margin: 50px; */
-    margin: 25px 90px;
-   }
-   .card4{
-    width: 1280px;
-    height: 365px;
-    /* border: solid 1px green; */
-    margin: auto;
-    /* margin-right: 20px; */
-    background-image: url(img/card4.png);
-   }
-   footer{
-    display: flex;
-    width: 1440px;
-    height: 284px;
-    /* border: solid 1px green; */
-    margin: auto;
-   }
+.img-selengkapnya{
+  display: flex;
+  margin-left: 20px;  
+}
+.img-18{
+  display: flex;
+  margin-left: 20px;
+}
+/* .ms2{
+  width: 10px;
+  height: 45px;
+  background-size: cover;
+  display: flex;
+} */
+ .on-of{
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 900px;
+ }
+ .container-melanjutkan-tonton{
+  width: 1440px;
+  height: 309px;
+  border: solid 1px green;
+  margin: auto;
+ }
+ .h3-melanjutkan-tonton{
+  display: flex;
+  width: 354px;
+  height: 35px;
+  /* border: solid 1px green; */
+  /* margin: 50px; */
+  margin: 25px 90px;
+ }
+ .card1{
+  width: 1280px;
+  height: 162px;
+  border: solid 1px green;
+  margin: auto;
+  /* margin-right: 20px; */
+  /* background-image: url(img/card.png); */
+  display: flex;
+  gap: 20px;
+  
+ }
+ .film1{
+  width: 302px;
+  height: 162px;
+  border: solid 1px green;
+  background-image: url(img/film1.png);
+ }
+ .film2{
+  width: 302px;
+  height: 162px;
+  border: solid 1px green;
+  background-image: url(img/film2.png);
+ }
+ .film3{
+  width: 302px;
+  height: 162px;
+  border: solid 1px green;
+  background-image: url(img/film3.png);
+ }
+ .film4{
+  width: 302px;
+  height: 162px;
+  border: solid 1px green;
+  background-image: url(img/film4.png);
+ }
+ .container-top-rating{
+  width: 1440px;
+  height: 512px;
+  /* border: solid 1px green; */
+  margin: auto;
+ }
+ .h3-top-rating{
+  display: flex;
+  width: 354px;
+  height: 35px;
+  border: solid 1px green;
+  /* margin: 50px; */
+  margin: 25px 90px;
+ }
+ .card2{
+  width: 1280px;
+  height: 365px;
+  border: solid 1px green;
+  margin: auto;
+  /* margin-right: 20px; */
+  /* background-image: url(img/card2.png); */
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+ }
+ .top1{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/top1.png);
+ }
 
-   .footer{
-    display: flex;
-    width: 1280px;
-    height: 164px;
-    /* border: solid 1px green; */
-    margin: auto;
-    align-items: center;
-    background-image: url(img/footer.png);
-   }
-   
+ .top2{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/top2.png);
+ }
+ .top3{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/top3.png);
+ }
+ .top4{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/top4.png);
+ }
+ .top5{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/top5.png);
+ }
+ .container-film-trending{
+  width: 1440px;
+  height: 512px;
+  /* border: solid 1px green; */
+  margin: auto;
+ }
+ .h3-film-trending{
+  display: flex;
+  width: 354px;
+  height: 35px;
+  /* border: solid 1px green; */
+  /* margin: 50px; */
+  margin: 25px 90px;
+ }
+ .card3{
+  width: 1280px;
+  height: 365px;
+  border: solid 1px green;
+  margin: auto;
+  /* margin-right: 20px; */
+  /* background-image: url(img/card3.png); */
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+ }
+ .trending1{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/trending1.png);
+ }
+ .trending2{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/trending2.png);
+ }
+ .trending3{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/trending3.png);
+ }
+ .trending4{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/trending4.png);
+ }
 
+ .trending5{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/trending5.png);
+ }
+ .container-rilis-baru{
+  width: 1440px;
+  height: 512px;
+  /* border: solid 1px green; */
+  margin: auto;
+ }
+ .h3-rilis-baru{
+  display: flex;
+  width: 354px;
+  height: 35px;
+  /* border: solid 1px green; */
+  /* margin: 50px; */
+  margin: 25px 90px;
+ }
+ .card4{
+  width: 1280px;
+  height: 365px;
+  border: solid 1px green;
+  margin: auto;
+  /* margin-right: 20px; */
+  /* background-image: url(img/card4.png); */
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+ }
+
+ .rilis1{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/rilis1.png);
+ }
+ .rilis2{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/rilis2.png);
+ }
+ .rilis3{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/rilis3.png);
+ }
+ .rilis4{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/rilis4.png);
+ }
+ .rilis5{
+  width: 234px;
+  height: 365px;
+  border: solid 1px green;
+  background-image: url(img/rilis5.png);
+ }
+
+ footer{
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  width: 1440px;
+  height: 284px;
+  border: solid 1px green;
+  margin: auto;
+ }
+
+ /* .footer{
+  display: flex;
+  width: 1280px;
+  height: 164px; */
+  /* border: solid 1px green; */
+  /* margin: auto;
+  align-items: center;
+  background-image: url(img/footer.png);
+ } */
+
+ .isi-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  height: 164px;
+  margin: auto;
+  border: solid 1px green;
+ }
+ .footer1{
+  width: 251px;
+  height: 91px;
+  border: solid 1px green;
+  box-sizing: border-box;
+  background-image: url(img/footer-logo.png);
+
+ }
+ .footer2{
+  width: 514px;
+  height: 164px;
+  border: solid 1px green;
+ }
+ ul li a{
+  text-decoration: none;
+ }
+ li{
+  list-style: none;
+ }
+ .footer3{
+  width: 140px;
+  height: 164px;
+  border: solid 1px green;
+ }
+ 
+
+ 
+
+@media only screen and (max-width: 600px) {
+.card1{
+  display: flex;
+  flex-direction: column;
+}
+}
