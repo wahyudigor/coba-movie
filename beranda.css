@@ -1,5 +1,7 @@
 body{
   background-color: #202026;
+  width: 100vw;
+    height: 100vh;
 }
 *{
   margin: 0;
@@ -12,7 +14,7 @@ body{
   width: 1440px;
   /* height: auto; */
   margin: auto; 
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-color: #181A1C
 }
 .container-header{
@@ -35,7 +37,7 @@ body{
 .navbar{
   display: flex;
   margin-left: auto;
-  margin: 30px;
+  margin: 20px;
 }
 .navbar ul{
   display: flex;
@@ -51,8 +53,8 @@ body{
   display: flex;
   margin-left: auto;
   /* border: solid 1px green; */
-  width: 76px;
-  height: 40px;
+  width: 100px;
+  height: 94px;
   /* untuk menggerakkan posisi logo */
   margin-right: 30px;
 }
@@ -63,21 +65,52 @@ body{
   background-image: url(img/avatar.png);
   background-size: cover;
   display: flex;
-  /* margin-left: auto; */
+  margin-left: -100px;
 }
 .logo-down{
   margin-top: 27px;
-  width: 28px;
+  width: 100px;
   height: 28px;
-  background-image: url(img/down.png);
+  /* background-image: url(img/down.png); */
   background-size: cover;
   display: flex;
-  /* margin-left: auto; */
+  margin-left: 10px;
+  /* visibility: hidden; */
 }
+
+ul li{
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  display: block;
+  padding: 15px 15px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+ul li ul.dropdown li{
+  display: block;
+}
+ul li ul.dropdown{
+  /* width: 100%; */
+  background-color: #181A1C;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  background-color: #181A1C;
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+
 .container-hero{
   width: 1440px;
   height: 587px;
-  border: solid 1px green;
+  border: solid 1px #181A1C;
   margin: auto;
   background-image: url(img/duty.png);
 }
@@ -85,7 +118,7 @@ body{
   display: flex;
   width: 1280px;
   height: 233px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   margin: auto;
   margin-top: 300px;
   
@@ -147,7 +180,7 @@ body{
  .container-melanjutkan-tonton{
   width: 1440px;
   height: 309px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   margin: auto;
  }
  .h3-melanjutkan-tonton{
@@ -161,7 +194,7 @@ body{
  .card1{
   width: 1280px;
   height: 162px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   margin: auto;
   /* margin-right: 20px; */
   /* background-image: url(img/card.png); */
@@ -172,25 +205,25 @@ body{
  .film1{
   width: 302px;
   height: 162px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/film1.png);
  }
  .film2{
   width: 302px;
   height: 162px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/film2.png);
  }
  .film3{
   width: 302px;
   height: 162px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/film3.png);
  }
  .film4{
   width: 302px;
   height: 162px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/film4.png);
  }
  .container-top-rating{
@@ -203,14 +236,14 @@ body{
   display: flex;
   width: 354px;
   height: 35px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   /* margin: 50px; */
   margin: 25px 90px;
  }
  .card2{
   width: 1280px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   margin: auto;
   /* margin-right: 20px; */
   /* background-image: url(img/card2.png); */
@@ -221,32 +254,32 @@ body{
  .top1{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/top1.png);
  }
 
  .top2{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/top2.png);
  }
  .top3{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/top3.png);
  }
  .top4{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/top4.png);
  }
  .top5{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/top5.png);
  }
  .container-film-trending{
@@ -266,7 +299,7 @@ body{
  .card3{
   width: 1280px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   margin: auto;
   /* margin-right: 20px; */
   /* background-image: url(img/card3.png); */
@@ -277,32 +310,32 @@ body{
  .trending1{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/trending1.png);
  }
  .trending2{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/trending2.png);
  }
  .trending3{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/trending3.png);
  }
  .trending4{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/trending4.png);
  }
 
  .trending5{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/trending5.png);
  }
  .container-rilis-baru{
@@ -322,7 +355,7 @@ body{
  .card4{
   width: 1280px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   margin: auto;
   /* margin-right: 20px; */
   /* background-image: url(img/card4.png); */
@@ -334,31 +367,31 @@ body{
  .rilis1{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/rilis1.png);
  }
  .rilis2{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/rilis2.png);
  }
  .rilis3{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/rilis3.png);
  }
  .rilis4{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/rilis4.png);
  }
  .rilis5{
   width: 234px;
   height: 365px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   background-image: url(img/rilis5.png);
  }
 
@@ -403,14 +436,16 @@ body{
   height: 164px;
   border: solid 1px green;
  }
- ul li a{
+ ul li .genre{
   text-decoration: none;
+  font-size: 14px;
+  padding: 8px;
  }
  li{
   list-style: none;
  }
  .footer3{
-  width: 140px;
+  width: 200px;
   height: 164px;
   border: solid 1px green;
  }
@@ -418,9 +453,16 @@ body{
 
  
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 .card1{
   display: flex;
   flex-direction: column;
 }
 }
+
+/* @media (min-width: 320px) and (max-width: 767px){
+  .container-beranda{
+    display: flex;
+  }
+} */
+
